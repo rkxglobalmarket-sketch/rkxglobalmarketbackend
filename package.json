@@ -4,7 +4,7 @@
   "description": "A basic starter for an express.js API using Typescript. Forked from w3cj/express-api-starter",
   "main": "index.ts",
   "scripts": {
-    "start": "tsc && node dist/src/index.js",
+    "start": "tsc && node dist/src/server.js",
     "build": "tsc",
     "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/index.ts",
     "lint": "eslint src/**/*.ts --fix",
@@ -40,3 +40,4 @@
     "typescript": "^5.5.4"
   }
 }
+
